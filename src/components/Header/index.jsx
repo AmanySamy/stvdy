@@ -31,16 +31,16 @@ export default function Header() {
                             <img src="/img/client-1.png" alt="" />
                         </div>
                         <div className="sponser">
-                            <img src="/img/client-1.png" alt="" />
+                            <img src="/img/client-2.png" alt="" />
                         </div>
                         <div className="sponser">
-                            <img src="/img/client-1.png" alt="" />
+                            <img src="/img/client-3.png" alt="" />
                         </div>
                         <div className="sponser">
-                            <img src="/img/client-1.png" alt="" />
+                            <img src="/img/client-4.png" alt="" />
                         </div>
                         <div className="sponser">
-                            <img src="/img/client-1.png" alt="" />
+                            <img src="/img/client-5.png" alt="" />
                         </div>
                     </div>
                 </div>
