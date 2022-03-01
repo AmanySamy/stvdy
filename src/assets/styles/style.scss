@@ -1,0 +1,6 @@
+@import url(./_typography.scss);
+@import url(./_header.scss);
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,96 @@
+.header {
+  height: 1080px;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: top left !important;
+  display: flex;
+  flex-direction: column;
+
+  header.MuiPaper-root {
+    background: transparent;
+    box-shadow: none;
+    .logo {
+      font-size: 52px;
+      font-weight: bold;
+      display: flex;
+      align-items: baseline;
+      span {
+        position: relative;
+        font-size: 45px;
+        &:before {
+          content: '';
+          width: 13px;
+          height: 3px;
+          background-color: #fff;
+          position: absolute;
+          display: block;
+          left: 50%;
+          transform: translateX(-50%);
+          top: 15px;
+        }
+      }
+    }
+    .MuiToolbar-root {
+      justify-content: space-around;
+      .MuiBox-root {
+        justify-content: center;
+        button {
+          font-family: 'Poppins';
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+      .about-button {
+        font-size: 16px;
+        font-weight: 600;
+        background: linear-gradient(45deg, #ff6057, #7c1c80);
+        box-shadow: none;
+        width: 178px;
+        height: 45px;
+        border-radius: 10px;
+        line-height: 45px;
+      }
+    }
+  }
+  .header-content {
+    flex-grow: 1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    .content{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start ;
+        justify-content: center ;
+
+        h3.sub-title {
+          font-size: 24px;
+        }
+        h1.title {
+          font-size: 58px;
+          font-weight: bold;
+        }
+        p.desc {
+          font-size: 18px;
+        }
+        button{
+            width: 178px;
+            height: 45px;
+            background-color: #FFF;
+            color: #ff6057;
+            font-size: 16px;
+            font-weight: 600px;
+            border-radius: 10px;
+            border: 0;
+        }
+    }
+  }
+  .sponsers {
+    padding: 50px 0px;
+    .sponsers-container {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
