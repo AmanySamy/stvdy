@@ -1,0 +1,37 @@
+.custom-card {
+    max-width: 500px;
+    text-align: start;
+    padding: 30px ;
+    font-family: 'Poppins';
+    h3 {
+      font-size: 38px;
+      font-weight: bold;
+      margin: 20px 0px;
+      color: #3b3a3a;
+      &::before {
+        content: '';
+        background-color: #e84438;
+        width: 80px;
+        height: 4px;
+        display: block;
+        margin: 15px 0px;
+      }
+    }
+    p {
+      text-align: start;
+      font-size: 14px;
+      font-family: 400;
+      color: #a6a6a6;
+      margin: 20px 0px;
+    }
+
+    a {
+      color: #ff6057;
+      font-size: 16px;
+      font-style: 600;
+      text-decoration: none;
+      & > svg {
+        margin-left: 100px;
+      }
+    }
+  }

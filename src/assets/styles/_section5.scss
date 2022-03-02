@@ -1,0 +1,24 @@
+.section5 {
+  padding: 280px 0px 80px;
+//   overflow: hidden;
+  position: relative;
+  .custom-card{
+      margin: auto;
+  }
+  .img-section {
+    position: relative;
+    padding: 30px 50px;
+    .report {
+      //   position: absolute;
+      z-index: 10;
+      left: 0;
+    }
+  }
+  .bg {
+    transform: scale(0.8) rotate(255deg);
+    position: relative;
+    margin-top: -66%;
+    z-index: -1;
+    right: -48%;
+  }
+}

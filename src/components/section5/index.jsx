@@ -1,17 +1,11 @@
 import React from 'react'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import Section4 from '../section4';
-import Section2 from '../Section2';
 
-export default function Section3() {
+export default function Section5() {
     return (
-        <section className="section3">
-            {/* <Section2 /> */}
+        <section className="section5" >
             <div className="section3_container ">
-                <div className="row m-0">
-                    <div className="col-md-6 p-0" style={{ borderRadius: '15px',overflow: 'hidden'}}>
-                        <img src="/img/report.png" alt="" className="report img-fluid" />
-                    </div>
+                <div className="row m-0" style={{alignItems: 'center'}}>
                     <div className="col-md-6">
                         <div className="custom-card">
                             <h3>
@@ -24,12 +18,12 @@ export default function Section3() {
                             <a href=""> Learn About Our Success <ArrowForwardIcon /> </a>
                         </div>
                     </div>
-
-                    <img src="/img/Rectangle.png" alt="" className="bg " />
+                    <div className="col-md-6  img-section" style={{ borderRadius: '15px', overflow: 'hidden' }}>
+                        <img src="/img/report.png" alt="" className="report img-fluid " />
+                    </div>
                 </div>
-
             </div>
-            {/* <Section4 /> */}
+                    <img src="/img/Rectangle.png" alt="" className="bg " />
         </section>
     )
 }

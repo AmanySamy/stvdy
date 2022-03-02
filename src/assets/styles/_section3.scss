@@ -1,37 +1,18 @@
-.section3{
-    
-    .section3_container{
-        
-        .desc{
-            width: 406px;
-            text-align: start
-            
-        }
-        .desc>svg{
-            color: #FF6057;
-            width: 79px;
-        }
-        h3{
-            font-family: 'Poppins';
-            font-size: 38px;
-            font-weight: bold;
-            
-        }
-        p{
-            text-align: start;
-            font-size: 14px;
-            font-family: regular;
-        }
-        
-        a{
-            color: #FF6057;
-            font-size: 16px;
-            font-style: SemiBold;
-        }
-        a>svg{
-            margin-left: 100px;
-        }
-        
-
+.section3 {
+  background-repeat: no-repeat !important;
+  background-position: -142% 170% !important;
+  background-size: 70% !important;
+  padding: 180px 0px 0px;
+  // overflow: hidden;
+  position: relative;
+  .section3_container {
+    .bg {
+      transform: scale(0.8) rotate(255deg);
+      position: relative;
+      margin-top: -66%;
+      z-index: -1;
+      left: -48%;
     }
+    
+  }
 }
