@@ -1,0 +1,54 @@
+.section7{
+    h3.section-title {
+        font-size: 48px;
+        font-weight: 700;
+        max-width: 450px;
+        margin: auto;
+    }
+    .item{
+        span {
+            font-size: 50px;
+            font-weight: 700;
+            color: #ff6057;
+        }
+    }
+    .custom-card {
+        .title:before {
+          display: none;
+        }
+        .about-button{
+            color: #FFF !important;
+        }
+      }
+    .review-item{
+        box-shadow: 0px 0px 10px #ccc;
+        padding: 31px;
+        margin: 10px;
+        align-items: center;
+        img{
+            width: 160px;
+            height: 203px;
+            margin: 20px;
+        }
+        .item-content{
+            .title{
+                font-size: 18px;
+                font-weight: 600;
+                color: #3b3a3a;
+            }
+            .sub-title{
+                font-size: 16px;
+                color: #8f8f8f;
+            }
+            .desc{
+                font-size: 14px;
+                color: #a6a6a6;
+            }
+            .reviews li{
+                svg{
+                    color: #d074f9;
+                }
+            }
+        }
+    }
+}
