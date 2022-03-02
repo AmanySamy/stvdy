@@ -1,7 +1,10 @@
 @import url(./_typography.scss);
 @import url(./_header.scss);
 @import url(./_section3.scss);
-.menu-container{
-    display: flex;
-    justify-content: space-between;
+@import url(./_section2.scss);
+@import url(./_section4.scss);
+@import url(./_global.scss);
+.menu-container {
+  display: flex;
+  justify-content: space-between;
 }
