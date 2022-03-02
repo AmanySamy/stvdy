@@ -1,0 +1,74 @@
+.footer{
+    background-color: #333333;
+    text-align: start;
+    padding: 36px;
+    width: 1913px;
+    h5{
+        font-family: "Nueva Std";
+        color: #FFFFFF;
+        font-size: 48px;
+    }
+    p{
+        color: #FFFFFF;
+        font-size: 14px;
+        
+    }
+    h6{
+        font-weight: bold;
+        color: #FFFFFF;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .list1{
+        width: 281px;
+    }
+    li{
+        color: #FFFFFF;
+        list-style: none;
+        
+    }
+    .desc{
+        
+        font-family: "Regular";
+        width: 172px;
+        
+    }
+    
+    input{
+        
+        border-radius: 25px;
+        width: 479px;
+        padding: 20px;
+        border: 0px;
+        outline: 0px;
+
+    }
+    button {
+        /* Just a little styling to make it pretty */
+        border-radius: 25px;
+        background :#FF6057;
+        color:white;
+        width: 100%;
+        border-color: #FFFFFF;
+      
+      }
+    .formdesgin{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        background-color: white;
+        border-radius: 25px;
+      }
+      li>div>div{
+          background-color: #FFFFFF;
+          border-radius: 25px;
+      }
+      li>div{
+          height: 50px;
+          margin-top: 20px;
+      }
+      .formTitle{
+          padding-top: 20px;
+      }
+      
+}
