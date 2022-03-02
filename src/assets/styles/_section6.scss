@@ -1,0 +1,59 @@
+.section6 {
+  margin-top: -300px;
+  .custom-card {
+    .title:before {
+      display: none;
+    }
+    .about-button{
+        color: #FFF !important;
+    }
+  }
+  .card {
+    padding: 10px;
+    text-align: start;
+    border: 0;
+    display: flex;
+    flex-wrap: wrap;
+    .img-container {
+      display: flex;
+      align-items: center;
+      span {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 60px;
+        margin-bottom: 15px;
+        box-shadow: 0px 0px 10px #ccc;
+        background: #e84438;
+        color: #fff;
+        font-weight: 700;
+      }
+      .card-title {
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 20px;
+      }
+    }
+    p.card-desc {
+      font-size: 14px;
+      color: #9d9d9d;
+      line-height: 1.9;
+      flex-basis: 100%;
+      display: flex;
+      max-width: 500px;
+      &:before {
+        content: '';
+        background-color: #9d9d9d;
+        height: 90px;
+        width: 4px;
+        display: block;
+        margin-right: 50px;
+        margin-left: 30px;
+      }
+    }
+    &:last-of-type .card-desc::before{
+        opacity: 0;
+    }
+  }
+}

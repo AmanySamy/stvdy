@@ -1,37 +1,48 @@
 .custom-card {
-    max-width: 500px;
+  max-width: 500px;
+  text-align: start;
+  padding: 30px;
+  font-family: 'Poppins';
+  h3 {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 20px 0px;
+    color: #3b3a3a;
+    text-transform: capitalize;
+    &::before {
+      content: '';
+      background-color: #e84438;
+      width: 80px;
+      height: 4px;
+      display: block;
+      margin: 15px 0px;
+    }
+  }
+  p {
     text-align: start;
-    padding: 30px ;
-    font-family: 'Poppins';
-    h3 {
-      font-size: 38px;
-      font-weight: bold;
-      margin: 20px 0px;
-      color: #3b3a3a;
-      &::before {
-        content: '';
-        background-color: #e84438;
-        width: 80px;
-        height: 4px;
-        display: block;
-        margin: 15px 0px;
-      }
-    }
-    p {
-      text-align: start;
-      font-size: 14px;
-      font-family: 400;
-      color: #a6a6a6;
-      margin: 20px 0px;
-    }
+    font-size: 14px;
+    font-family: 400;
+    color: #a6a6a6;
+    margin: 20px 0px;
+  }
 
-    a {
-      color: #ff6057;
-      font-size: 16px;
-      font-style: 600;
-      text-decoration: none;
-      & > svg {
-        margin-left: 100px;
-      }
+  a {
+    color: #ff6057;
+    font-size: 16px;
+    font-style: 600;
+    text-decoration: none;
+    & > svg {
+      margin-left: 100px;
     }
+  }
+}
+.about-button {
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(45deg, #ff6057, #7c1c80);
+    box-shadow: none;
+    width: 178px;
+    height: 45px;
+    border-radius: 10px;
+    line-height: 45px;
   }
