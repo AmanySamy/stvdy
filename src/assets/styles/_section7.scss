@@ -1,54 +1,86 @@
-.section7{
-    h3.section-title {
-        font-size: 48px;
-        font-weight: 700;
-        max-width: 450px;
-        margin: auto;
+.section7 {
+  h3.section-title {
+    font-size: 48px;
+    font-weight: 700;
+    max-width: 450px;
+    margin: auto;
+    @media (max-width: 992px) {
+      font-size: 40px !important;
     }
-    .item{
-        span {
-            font-size: 50px;
-            font-weight: 700;
-            color: #ff6057;
-        }
+    @media (max-width: 768px) {
+      font-size: 36px !important;
     }
-    .custom-card {
-        .title:before {
-          display: none;
-        }
-        .about-button{
-            color: #FFF !important;
+  }
+  .item {
+    span {
+      font-size: 50px;
+      font-weight: 700;
+      color: #ff6057;
+      @media (max-width: 992px) {
+        font-size: 40px !important;
+      }
+      @media (max-width: 768px) {
+        font-size: 30px !important;
+      }
+    }
+    h4 {
+      font-size: 24px;
+      @media (max-width: 992px) {
+        font-size: 22px !important;
+      }
+      @media (max-width: 768px) {
+        font-size: 20px !important;
+      }
+    }
+  }
+  .custom-card {
+    .title:before {
+      display: none;
+    }
+    .about-button {
+      color: #fff !important;
+    }
+  }
+  .review-item {
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 31px;
+    margin: 10px;
+    align-items: center;
+    @media (max-width: 992px) {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    img {
+      width: 160px;
+      height: 203px;
+      margin: 20px;
+      @media (max-width: 992px) {
+        min-width: 100%;
+        max-height: 300px;
+        margin: 20px 0px;
+      }
+    }
+    .item-content {
+      .title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #3b3a3a;
+      }
+      .sub-title {
+        font-size: 16px;
+        color: #8f8f8f;
+      }
+      .desc {
+        font-size: 14px;
+        color: #a6a6a6;
+      }
+      .reviews li {
+        svg {
+          color: #d074f9;
         }
       }
-    .review-item{
-        box-shadow: 0px 0px 10px #ccc;
-        padding: 31px;
-        margin: 10px;
-        align-items: center;
-        img{
-            width: 160px;
-            height: 203px;
-            margin: 20px;
-        }
-        .item-content{
-            .title{
-                font-size: 18px;
-                font-weight: 600;
-                color: #3b3a3a;
-            }
-            .sub-title{
-                font-size: 16px;
-                color: #8f8f8f;
-            }
-            .desc{
-                font-size: 14px;
-                color: #a6a6a6;
-            }
-            .reviews li{
-                svg{
-                    color: #d074f9;
-                }
-            }
-        }
     }
+  }
 }

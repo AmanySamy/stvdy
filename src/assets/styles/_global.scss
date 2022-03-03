@@ -9,6 +9,12 @@
     margin: 20px 0px;
     color: #3b3a3a;
     text-transform: capitalize;
+    @media (max-width: 768px) {
+      font-size: 26px !important;
+    }
+    @media (max-width: 992px) {
+     font-size: 30px;
+    }
     &::before {
       content: '';
       background-color: #e84438;
@@ -24,6 +30,9 @@
     font-family: 400;
     color: #a6a6a6;
     margin: 20px 0px;
+    @media (max-width: 768px) {
+      font-size: 13px !important;
+    }
   }
 
   a {
@@ -31,6 +40,9 @@
     font-size: 16px;
     font-style: 600;
     text-decoration: none;
+    @media (max-width: 768px) {
+      font-size: 14px !important;
+    }
     & > svg {
       margin-left: 100px;
     }
