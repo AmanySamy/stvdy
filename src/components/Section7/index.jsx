@@ -1,7 +1,6 @@
 import React from 'react'
 import Carousel from 'react-material-ui-carousel'
 import StarIcon from '@mui/icons-material/Star';
-import { Button } from '@mui/material';
 import data from "../../data.json"
 
 export default function Section7() {
@@ -45,7 +44,7 @@ export default function Section7() {
                         <div className="custom-card">
                             <h3 className="title">{ data.section7.Box.title }</h3>
                             <p className="desc">{ data.section7.Box.desc }</p>
-                            <Button className='about-button'>{ data.section7.Box.link }</Button>
+                            <button className='about-button'>{ data.section7.Box.link }</button>
                         </div>
                     </div>
                 </div>

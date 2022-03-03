@@ -2,7 +2,7 @@ import React from 'react'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import data from "../../data.json"
 export default function Section2() {
-    console.log(data.section2)
+
     return (
         <section className="section2">
             <div className="container">

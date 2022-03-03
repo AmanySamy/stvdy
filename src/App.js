@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import '../src/assets/styles/style.scss';
 import Home from './containers/Home';

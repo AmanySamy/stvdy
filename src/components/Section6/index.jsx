@@ -1,4 +1,4 @@
-import { Button } from '@mui/material'
+
 import React from 'react'
 import data from "../../data.json"
 
@@ -11,7 +11,7 @@ export default function Section6() {
                         <div className="custom-card">
                             <h3 className="title">{data.section6.Box.title}</h3>
                             <p className="desc">{data.section6.Box.desc}</p>
-                            <Button className='about-button'>{data.section6.Box.link}</Button>
+                            <button className='about-button'>{data.section6.Box.link}</button>
                         </div>
                     </div>
                     <div className="col-md-6">
