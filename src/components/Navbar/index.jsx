@@ -1,104 +1,31 @@
-import React from 'react'
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
-import Container from '@mui/material/Container';
-import Button from '@mui/material/Button';
-import MenuItem from '@mui/material/MenuItem';
+import React, { useState } from 'react'
+import MenuIcon from '@mui/icons-material/Menu';
 
 const pages = ['Browser', 'Bootcamps', 'How it Works', 'Testemonials'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+
 export default function Navbar() {
-
-
-
-    const [anchorElNav, setAnchorElNav] = React.useState(null);
-
-    const handleOpenNavMenu = (event) => {
-        setAnchorElNav(event.currentTarget);
-    };
-
-
-    const handleCloseNavMenu = () => {
-        setAnchorElNav(null);
-    };
-
-
+    const [Toggle, setToggle] = useState(false)
     return (
-        <AppBar position="static">
-            <Container maxWidth="xl">
-                <Toolbar disableGutters>
-                    {/* Desktop Menu  */}
-                    <Typography
-                        variant="h6"
-                        noWrap
-                        component="div"
-                        sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
-                        className="logo"
-                    >
-                        ST <span>V</span> DY
-                    </Typography>
 
-                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+        <nav className="navbar navbar-expand-lg">
+            <a className="navbar-brand logo" href="#">ST <span>V</span> DY</a>
+            <button className="navbar-toggler" type="button" onClick={() => setToggle(!Toggle)}>
+                <MenuIcon className="navbar-toggler-icon" />
+            </button>
 
-                        <Menu
-                            id="menu-appbar"
-                            anchorEl={anchorElNav}
-                            anchorOrigin={{
-                                vertical: 'bottom',
-                                horizontal: 'left',
-                            }}
-                            keepMounted
-                            transformOrigin={{
-                                vertical: 'top',
-                                horizontal: 'left',
-                            }}
-                            open={Boolean(anchorElNav)}
-                            onClose={handleCloseNavMenu}
-                            sx={{
-                                display: { xs: 'block', md: 'none' },
-                            }}
-                        >
-                            {pages.map((page) => (
-                                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                    <Typography textAlign="center">{page}</Typography>
-                                </MenuItem>
-                            ))}
-                        </Menu>
-                        <Button>
-                            <Typography textAlign="center">About us</Typography>
-                        </Button>
-                    </Box>
-                    {/* Mobile Menu */}
-                    <Typography
-                        variant="h6"
-                        noWrap
-                        component="div"
-                        sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
-                    >
-                        ST <span>V</span> DY
-                    </Typography>
-                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                        {pages.map((page) => (
-                            <Button
-                                key={page}
-                                onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
-                            >
-                                {page}
-                            </Button>
-                        ))}
+            <div className={`collapse navbar-collapse ${Toggle? 'show' : ''}`} id="navbarSupportedContent">
+                <ul className="navbar-nav mr-auto">
+                    {pages.map((page) => (
 
-                    </Box>
-                    <Button className='about-button' variant="contained">About us</Button>
+                        <li className="nav-item active">
+                            <a className="nav-link" href="#">{page} </a>
+                        </li>
+                    ))}
+                </ul>
+                <button className="about-button">about us</button>
+            </div>
+        </nav>
 
-
-
-                </Toolbar>
-            </Container>
-        </AppBar>
 
     )
 }

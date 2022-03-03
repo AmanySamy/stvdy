@@ -6,13 +6,16 @@
   // overflow: hidden;
   position: relative;
   .section3_container {
+    
     .bg {
       transform: scale(0.8) rotate(255deg);
       position: relative;
       margin-top: -66%;
       z-index: -1;
       left: -48%;
+      @media (max-width:768px) {
+        display: none;
+      }
     }
-    
   }
 }

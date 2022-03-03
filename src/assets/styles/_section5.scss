@@ -1,12 +1,18 @@
 .section5 {
   padding: 280px 0px 80px;
   position: relative;
-  .custom-card{
-      margin: auto;
+  @media (max-width: 992px) {
+    padding: 50px 0px;
+  }
+  .custom-card {
+    margin: auto;
   }
   .img-section {
     position: relative;
     padding: 30px 50px;
+    @media (max-width: 992px) {
+      padding:  0px;
+    }
     .report {
       //   position: absolute;
       z-index: 10;
@@ -19,5 +25,8 @@
     margin-top: -66%;
     z-index: -1;
     right: -48%;
+    @media (max-width: 992px) {
+      display: none;
+    }
   }
 }

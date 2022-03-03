@@ -1,0 +1,143 @@
+{
+  "section2": {
+    "Box": {
+      "title": "The Best Business Solution For You",
+      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "link": "Learn About Our Success"
+    },
+    "cards": [
+      {
+        "img": "/img/Icon1.png",
+        "imgBg": "#e84438",
+        "title": "Scale your Activity",
+        "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+      },
+      {
+        "img": "/img/Icon2.png",
+        "imgBg": "#65c6ad",
+        "title": "Scale your Activity",
+        "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+      },
+      {
+        "img": "/img/icon3.png",
+        "imgBg": "#cf74f8",
+        "title": "Scale your Activity",
+        "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+      },
+      {
+        "img": "/img/Icon4.png",
+        "imgBg": "#e84438",
+        "title": "Scale your Activity",
+        "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+      }
+    ]
+  },
+  "section3": {
+    "Box": {
+      "title": "Best Platform For The Technological Era",
+      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "link": "Learn About Our Success"
+    }
+  },
+  "section4": {
+    "subTitle": "Advanced customer service Platform",
+    "title": "Platform Overview",
+    "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.",
+    "slides": [
+      {
+        "name": "slide #1",
+        "img": "/img/report1.png"
+      },
+      {
+        "name": "slide #2",
+        "img": "/img/report1.png"
+      },
+      {
+        "name": "slide #2",
+        "img": "/img/report1.png"
+      }
+    ]
+  },
+  "section5": {
+    "Box": {
+      "title": "The Best Business Solution For You",
+      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "link": "Learn About Our Success"
+    },
+    "image": "/img/report.png"
+  },
+  "section6": {
+    "Box": {
+      "title": "Acceleration Process To Grow Your Business",
+      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "link": "About Us"
+    },
+    "image": "/img/report1.png",
+    "cards": [
+      {
+        "num": "1",
+        "title": "Market Research",
+        "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod consetetur sadipscing elitr, sed diam nonumy eirmod"
+      },
+      {
+        "num": "2",
+        "title": "Market Research",
+        "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod consetetur sadipscing elitr, sed diam nonumy eirmod"
+      },
+      {
+        "num": "3",
+        "title": "Market Research",
+        "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod consetetur sadipscing elitr, sed diam nonumy eirmod"
+      }
+    ]
+  },
+  "section7": {
+    "title": "Dont Just Take Our World for it",
+    "stats": [
+      {
+        "count": 570,
+        "title": "Active User"
+      },
+      {
+        "count": 570,
+        "title": "Active User"
+      },
+      {
+        "count": 570,
+        "title": "Active User"
+      },
+      {
+        "count": 570,
+        "title": "Active User"
+      }
+    ],
+    "Box": {
+      "title": "Acceleration Process To Grow Your Business",
+      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "link": "About Us"
+    },
+    "slides": [
+      {
+        "name": "Florri Jacobs",
+        "img": "/img/client.png",
+        "jobTitle": "CEO of Company",
+        "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "Review": ["*", "*", "*", "*", "*"]
+      },
+      {
+        "name": "Florri Jacobs",
+        "img": "/img/client.png",
+        "jobTitle": "CEO of Company",
+        "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "Review": ["*", "*", "*", "*", "*"]
+      },
+      {
+        "name": "Florri Jacobs",
+        "img": "/img/client.png",
+        "jobTitle": "CEO of Company",
+        "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "Review": ["*", "*", "*", "*", "*"]
+      }
+    ]
+  }
+}

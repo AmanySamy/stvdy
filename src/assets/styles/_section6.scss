@@ -1,5 +1,8 @@
 .section6 {
   margin-top: -300px;
+  @media (max-width: 992px) {
+    margin-top: 0;
+  }
   .custom-card {
     .title:before {
       display: none;
